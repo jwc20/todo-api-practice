@@ -3,7 +3,6 @@
 ## Instructions
 
 ```
-mkdir frontend
 mkdir backend
 cd backend
 ```
@@ -46,3 +45,12 @@ docker-compose exec web python3 manage.py migrate
 - Install django-cors-headers.
 - Update settings to add corsheaders.
 - Create test for creating todos.
+
+
+### Frontend 
+
+```
+npx create-react-app frontend
+```
+
+
