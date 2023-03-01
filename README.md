@@ -46,11 +46,11 @@ docker-compose exec web python3 manage.py migrate
 - Update settings to add corsheaders.
 - Create test for creating todos.
 
-
-### Frontend 
+### Frontend
 
 ```
 npx create-react-app frontend
 ```
 
-
+- Installed axios.
+- Updated react app to fetch from django api using axios.
